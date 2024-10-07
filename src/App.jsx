@@ -5,7 +5,7 @@ import {
   SearchBar,
   FetchTe,
   Footer,
-} from "@jennystarkfrk/components";
+} from "@selmabtt/frk23-4-components-lek";
 import "./App.css";
 
 import { useEffect, useState } from "react";
