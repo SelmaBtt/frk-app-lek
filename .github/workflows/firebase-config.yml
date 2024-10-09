@@ -30,7 +30,7 @@ jobs:
 
     # Step 5: Deploy to Firebase
     - name: Deploy to Firebase
-      uses: w9jds/firebase-action@v10
+      uses: firebase-tools/action-hosting-deploy@v0
       with:
         args: deploy --only hosting
       env:
